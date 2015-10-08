@@ -20,11 +20,6 @@ fi
 # apache2 is installed
 if [ -d "/etc/apache2" ]; then
 
-  echo "deb http://http.debian.net/debian/ jessie main contrib non-free" >> /etc/apt/sources.list
-
-  apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
-
-  apt-get update
   LC_ALL=C DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends libapache2-mod-fastcgi
 
   a2enmod fastcgi actions alias
