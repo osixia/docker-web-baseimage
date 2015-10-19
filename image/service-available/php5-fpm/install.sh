@@ -12,6 +12,8 @@ sed -i -e "s/;listen.group = www-data/listen.group = www-data/g" /etc/php5/fpm/p
 # nginx is installed
 if [ -d "/etc/nginx" ]; then
 
+  echo "TODO: php5-fpm and nginx not available yet :)"
+  exit 1
   mkdir /etc/nginx/common
   ln -s /container/service-available/php5-fpm/assets/config/nginx/php5-fpm.conf /etc/nginx/common/php5-fpm.conf
 
