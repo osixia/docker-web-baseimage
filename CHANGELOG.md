@@ -1,6 +1,7 @@
 # Changelog
 
 ## 0.1.3
+  - Use light-baseimage:0.1.2
   - Add nginx
 
 ## 0.1.2
