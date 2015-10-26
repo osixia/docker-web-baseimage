@@ -12,6 +12,8 @@ sed -i -e "s/;listen.group = www-data/listen.group = www-data/g" /etc/php5/fpm/p
 # nginx is installed
 if [ -d "/etc/nginx" ]; then
 
+  echo "TODO: php5-fpm and nginx not available yet :)"
+  exit 1
   mkdir /etc/nginx/common
   ln -s /container/service-available/php5-fpm/assets/config/nginx/php5-fpm.conf /etc/nginx/common/php5-fpm.conf
 
@@ -20,11 +22,6 @@ fi
 # apache2 is installed
 if [ -d "/etc/apache2" ]; then
 
-  echo "deb http://http.debian.net/debian/ jessie main contrib non-free" >> /etc/apt/sources.list
-
-  apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
-
-  apt-get update
   LC_ALL=C DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends libapache2-mod-fastcgi
 
   a2enmod fastcgi actions alias

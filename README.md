@@ -5,4 +5,4 @@
 From :
 > [osixia/light-baseimage](https://github.com/osixia/docker-light-baseimage)
 
-Add optional services : apache2 and php5-fpm.
+Add optional services : apache2, nginx and php5-fpm.
