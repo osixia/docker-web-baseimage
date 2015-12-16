@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.7
+  - Use light-baseimage:0.2.0
+  - Makefile with build no cache
+  - Use ubuntu keyserver
+
 ## 0.1.6
   - Use light-baseimage:0.1.5
 
@@ -17,7 +22,7 @@
   - Fix "Package 'libapache2-mod-fastcgi' has no installation candidate"
 
 ## 0.1.1
-  - Upgrade baseimage: osixia/light-baseimage:0.1.1
+  - Upgrade baseimage: light-baseimage:0.1.1
 
 ## 0.1.0
   - Initial release
