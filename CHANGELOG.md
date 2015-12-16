@@ -21,7 +21,7 @@
   - Fix "Package 'libapache2-mod-fastcgi' has no installation candidate"
 
 ## 0.1.1
-  - Upgrade baseimage: osixia/light-baseimage:0.1.1
+  - Upgrade baseimage: light-baseimage:0.1.1
 
 ## 0.1.0
   - Initial release
