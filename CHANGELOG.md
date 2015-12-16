@@ -3,6 +3,7 @@
 ## 0.1.7
   - Use light-baseimage:0.2.0
   - Makefile with build no cache
+  - Use ubuntu keyserver
 
 ## 0.1.6
   - Use light-baseimage:0.1.5
