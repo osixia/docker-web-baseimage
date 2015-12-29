@@ -1,4 +1,4 @@
-FROM osixia/light-baseimage:0.2.0
+FROM osixia/light-baseimage:0.2.1-dev
 MAINTAINER Bertrand Gouny <bertrand.gouny@osixia.net>
 
 # Add Nginx and non-free repositories
