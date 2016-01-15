@@ -18,5 +18,5 @@ fi
 
 # apache2 is installed
 if [ -d "/etc/apache2" ]; then
-  a2enmod fastcgi actions alias | log-helper info
+  a2enmod fastcgi actions alias
 fi
