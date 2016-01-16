@@ -5,4 +5,4 @@
 From :
 > [osixia/light-baseimage](https://github.com/osixia/docker-light-baseimage)
 
-Add service-available: .apache2, .nginx and .php5-fpm.
+Add service-available: :apache2, :nginx and :php5-fpm.
