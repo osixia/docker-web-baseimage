@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.1.9
+  - Use light-baseimage:0.2.2
+
 ## 0.1.8
   - Use light-baseimage:0.2.1
 
