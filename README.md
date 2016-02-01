@@ -1,6 +1,13 @@
 # osixia/web-baseimage
 
-[![](https://badge.imagelayers.io/osixia//web-baseimage:latest.svg)](https://imagelayers.io/?images=osixia//web-baseimage:latest 'Get your own badge on imagelayers.io') | Latest release: 0.1.9 - [Changelog](CHANGELOG.md) | [Docker Hub](https://hub.docker.com/r/osixia/web-baseimage) 
+[![Docker Pulls](https://img.shields.io/docker/pulls/osixia/web-baseimage.svg)][hub]
+[![Docker Stars](https://img.shields.io/docker/stars/osixia/web-baseimage.svg)][hub]
+[![Image Size](https://img.shields.io/imagelayers/image-size/osixia/web-baseimage/latest.svg)](https://imagelayers.io/?images=osixia/web-baseimage:latest)
+[![Image Layers](https://img.shields.io/imagelayers/layers/osixia/web-baseimage/latest.svg)](https://imagelayers.io/?images=osixia/web-baseimage:latest)
+
+[hub]: https://hub.docker.com/r/osixia/web-baseimage/
+
+Latest release: 0.1.8 - [Changelog](CHANGELOG.md) | [Docker Hub](https://hub.docker.com/r/osixia/web-baseimage) 
 
 This image is based on:
 > [osixia/light-baseimage](https://github.com/osixia/docker-light-baseimage)
