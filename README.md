@@ -2,8 +2,6 @@
 
 [![Docker Pulls](https://img.shields.io/docker/pulls/osixia/web-baseimage.svg)][hub]
 [![Docker Stars](https://img.shields.io/docker/stars/osixia/web-baseimage.svg)][hub]
-[![Image Size](https://img.shields.io/imagelayers/image-size/osixia/web-baseimage/latest.svg)](https://imagelayers.io/?images=osixia/web-baseimage:latest)
-[![Image Layers](https://img.shields.io/imagelayers/layers/osixia/web-baseimage/latest.svg)](https://imagelayers.io/?images=osixia/web-baseimage:latest)
 
 [hub]: https://hub.docker.com/r/osixia/web-baseimage/
 
