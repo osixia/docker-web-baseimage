@@ -5,7 +5,7 @@
 
 [hub]: https://hub.docker.com/r/osixia/web-baseimage/
 
-Latest release: 0.1.8 - [Changelog](CHANGELOG.md) | [Docker Hub](https://hub.docker.com/r/osixia/web-baseimage) 
+Latest release: 0.1.10 - [Changelog](CHANGELOG.md) | [Docker Hub](https://hub.docker.com/r/osixia/web-baseimage) 
 
 This image is based on:
 > [osixia/light-baseimage](https://github.com/osixia/docker-light-baseimage)
