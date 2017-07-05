@@ -1,8 +1,8 @@
 # Changelog
 
 ## 1.0.0
-  - order apt sources
-  - time for 1.0.0 whup whup !
+  - php7-fpm 
+  - Upgrade baseimage: light-baseimage:1.1.0 (debian stretch)
 
 ## 0.1.12
   - Use light-baseimage:0.2.6
