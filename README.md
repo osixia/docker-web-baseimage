@@ -11,6 +11,6 @@ Latest release: 1.1.0 - [Changelog](CHANGELOG.md) | [Docker Hub](https://hub.doc
 This image is based on:
 > [osixia/light-baseimage](https://github.com/osixia/docker-light-baseimage)
 
-**Add service-available: :apache2, :nginx and :php7-fpm.**
+**Add service-available: :apache2, :nginx and :php7.0-fpm.**
 
 To fully understand how this image works please refer to: [osixia/light-baseimage documentation](https://github.com/osixia/docker-light-baseimage).
