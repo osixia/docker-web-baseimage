@@ -6,3 +6,7 @@ log-helper level eq trace && set -x
 
 # create sites-enabled directory to keep debian style
 mkdir -p /etc/nginx/sites-enabled/
+
+# forward request and error logs to docker log collector
+ln -sf /dev/stdout /var/log/nginx/access.log
+ln -sf /dev/stderr /var/log/nginx/error.log
