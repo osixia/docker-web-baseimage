@@ -1,7 +1,9 @@
 # Changelog
 
 ## 1.0.0
-  - php7.0-fpm 
+  - apache: enable http2
+  - update ssl config (nginx, apache)
+  - php7.0-fpm
   - Upgrade baseimage: light-baseimage:1.1.0 (debian stretch)
 
 ## 0.1.12
