@@ -8,5 +8,5 @@ log-helper level eq trace && set -x
 mkdir -p /etc/nginx/sites-enabled/
 
 # forward request and error logs to docker log collector
-ln -sf /dev/stdout /var/log/nginx/access.log
-ln -sf /dev/stderr /var/log/nginx/error.log
+ln -sf /proc/1/fd/1 /var/log/nginx/access.log
+ln -sf /proc/1/fd/2 /var/log/nginx/error.log
