@@ -14,11 +14,11 @@ sed -i -e "s/pm\.max_children.*/pm\.max_children = 9/g" /etc/php/7.0/fpm/pool.d/
 mkdir -p /run/php/
 
 # nginx is installed
-if [ -d "/etc/nginx" ]; then
+if [ -e "/usr/sbin/nginx" ]; then
   mkdir /etc/nginx/common
 fi
 
 # apache2 is installed
-if [ -d "/etc/apache2" ]; then
+if [ -e "/usr/sbin/a2enmod" ]; then
   a2enmod proxy_fcgi
 fi
