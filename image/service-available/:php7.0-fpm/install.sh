@@ -2,6 +2,7 @@
 
 # config
 sed -i -e "s/expose_php = On/expose_php = Off/g" /etc/php/7.0/fpm/php.ini
+sed -i -e "s/max_execution_time.*/max_execution_time = 90/g" /etc/php/7.0/fpm/php.ini
 
 sed -i -e "s/error_log = .*/error_log = \/proc\/self\/fd\/2/g" /etc/php/7.0/fpm/php-fpm.conf
 
