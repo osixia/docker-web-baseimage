@@ -4,7 +4,7 @@
   - apache: enable http2
   - update ssl config (nginx, apache)
   - php7.0-fpm
-  - Upgrade baseimage: light-baseimage:1.1.0 (debian stretch)
+  - Upgrade baseimage: light-baseimage:1.1.1 (debian stretch)
   - set php timeout to 90s
 
 ## 1.0.0
