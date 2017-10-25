@@ -4,4 +4,4 @@
 # https://github.com/osixia/docker-light-baseimage/blob/stable/image/tool/log-helper
 log-helper level eq trace && set -x
 
-exec /usr/sbin/php5-fpm --nodaemonize
+exec /usr/sbin/php-fpm7.0 --nodaemonize
