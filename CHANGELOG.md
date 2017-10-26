@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.1.1
+  - Add default ssl, security, cache and gzip config
+
 ## 1.1.0
   - apache: enable http2
   - update ssl config (nginx, apache)

@@ -8,6 +8,5 @@ log-helper level eq trace && set -x
 ln -sf ${CONTAINER_SERVICE_DIR}/:apache2/assets/apache2.conf /etc/apache2/apache2.conf
 ln -sf ${CONTAINER_SERVICE_DIR}/:apache2/assets/conf-available/* /etc/apache2/conf-available/
 ln -sf ${CONTAINER_SERVICE_DIR}/:apache2/assets/sites-available/* /etc/apache2/sites-available/
-a2enconf custom-security | log-helper debug
 
 exit 0
