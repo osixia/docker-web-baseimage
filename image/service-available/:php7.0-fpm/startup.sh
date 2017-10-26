@@ -7,7 +7,7 @@ log-helper level eq trace && set -x
 
 # nginx is installed
 if [ -e "/usr/sbin/nginx" ]; then
-  ln -sf ${CONTAINER_SERVICE_DIR}/:php7.0-fpm/assets/config/nginx/php7.0-fpm.conf /etc/nginx/common/php7.0-fpm.conf
+  ln -sf ${CONTAINER_SERVICE_DIR}/:php7.0-fpm/assets/config/nginx/php7.0-fpm.conf /etc/nginx/conf-available/php7.0-fpm.conf
 fi
 
 # apache2 is installed
