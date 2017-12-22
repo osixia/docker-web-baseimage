@@ -5,7 +5,6 @@
 log-helper level eq trace && set -x
 
 ln -sf ${CONTAINER_SERVICE_DIR}/:nginx/assets/nginx.conf /etc/nginx/nginx.conf
-ln -sf ${CONTAINER_SERVICE_DIR}/:nginx/assets/server-partial-ssl.conf /etc/nginx/server-partial-ssl.conf
-ln -sf ${CONTAINER_SERVICE_DIR}/:nginx/assets/conf.d/* /etc/nginx/conf.d
+ln -sf ${CONTAINER_SERVICE_DIR}/:nginx/assets/conf-available/* /etc/nginx/conf-available
 
 exit 0
