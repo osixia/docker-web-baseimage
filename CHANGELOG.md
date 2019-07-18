@@ -3,6 +3,7 @@
 ## 1.2.0 - Unreleased
 ### Changed
   - Upgrade baseimage to light-baseimage:release-1.2.0-dev
+  - Upgrade to php7.3-fpm
 
 ## 1.1.2 - Unreleased
 ### Changed
