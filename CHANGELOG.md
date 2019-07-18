@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.1.2 - Unreleased
+### Changed
+  - Upgrade baseimage to light-baseimage:1.1.2
+  - nginx logs to /proc/self/fd/1 and /proc/self/fd/2
+
 ## 1.1.1
   - Add default ssl, security, cache and gzip config
 
