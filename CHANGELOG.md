@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.2.0 - Unreleased
+### Changed
+  - Upgrade baseimage to light-baseimage:release-1.2.0-dev
+
 ## 1.1.2 - Unreleased
 ### Changed
   - Upgrade baseimage to light-baseimage:1.1.2
