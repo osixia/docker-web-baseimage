@@ -15,5 +15,3 @@ if [ -e "/usr/sbin/a2enconf" ]; then
   ln -sf ${CONTAINER_SERVICE_DIR}/:php7.3-fpm/assets/config/apache2/php7.3-fpm.conf /etc/apache2/conf-available/php7.3-fpm.conf
   a2enconf php7.3-fpm | log-helper debug
 fi
-
-exit 0

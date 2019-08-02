@@ -1,4 +1,4 @@
 #!/bin/bash -e
 
-# install apache
-LC_ALL=C DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends apache2
+# install apache and psmisc (for killall command)
+LC_ALL=C DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends apache2 psmisc

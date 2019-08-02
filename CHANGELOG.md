@@ -5,6 +5,9 @@
   - Upgrade baseimage to light-baseimage:release-1.2.0-dev
   - Upgrade to php7.3-fpm
 
+### Fixed 
+  - Install psmisc package with apache for killall command used in finish.sh
+
 ## 1.1.2 - Unreleased
 ### Changed
   - Upgrade baseimage to light-baseimage:1.1.2
