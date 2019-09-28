@@ -1,8 +1,11 @@
 # Changelog
 
 ## 1.2.0 - Unreleased
+## Added
+  - Multiarch support
+
 ### Changed
-  - Upgrade baseimage to light-baseimage:release-1.2.0-dev
+  - Upgrade baseimage to light-baseimage:release-1.2.0-dev (debian buster)
   - Upgrade to php7.3-fpm
 
 ### Fixed 
