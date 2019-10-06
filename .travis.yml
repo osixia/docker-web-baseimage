@@ -45,7 +45,6 @@ install:
 
 before_script:
   # Set baseimage.
-  # remove pqchecker if arch is not amd64
   - sed -i -e "s/FROM \(.*\)/FROM \1-${TARGET_ARCH}/g" image/Dockerfile;
   - cat image/Dockerfile;
   # If this is a tag then change the VERSION variable to only have the
