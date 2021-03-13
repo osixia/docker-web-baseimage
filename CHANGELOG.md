@@ -9,7 +9,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
   - Multiarch support
 
 ### Changed
-  - Upgrade baseimage to light-baseimage:1.3.2 (debian buster)
+  - Upgrade baseimage to light-baseimage:1.3.3 (debian buster)
   - Upgrade to php7.3-fpm
 
 ### Fixed 
