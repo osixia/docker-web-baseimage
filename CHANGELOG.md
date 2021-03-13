@@ -11,6 +11,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Changed
   - Upgrade baseimage to light-baseimage:1.3.3 (debian buster)
   - Upgrade to php7.3-fpm
+  - Update ssl config
 
 ### Fixed 
   - Install psmisc package with apache for killall command used in finish.sh
