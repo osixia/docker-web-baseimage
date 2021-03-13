@@ -1,4 +1,4 @@
-FROM osixia/light-baseimage:release-1.2.0-dev
+FROM osixia/light-baseimage:1.3.2
 
 # Add Nginx and non-free repositories
 RUN apt-key adv --no-tty --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 573BFD6B3D8FBC641079A6ABABF5BD827BD9BF62 \
