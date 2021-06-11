@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## [1.2.0] - 2021-02-19
 ## Added
   - Multiarch support
+  - php7.4
 
 ### Changed
   - Upgrade baseimage to light-baseimage:1.3.3 (debian buster)
